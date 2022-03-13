@@ -8,6 +8,12 @@
 wget https://raw.githubusercontent.com/Good-Game-Services/vpn-client-commandline/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
+--- 
+> __Launch it__
+```bash
+cd /etc/vpn-client-commandline && node main.js
+```
+
 ---
 
 ##### THIS CLIENT IS CURRENT IN BETA AND MAY DIDN'T WORK. IF YOU TYPE THE PASSWORD WORNG, DELETE THE CLIENT.OVPN CLIENT AND TRY AGAIN!
