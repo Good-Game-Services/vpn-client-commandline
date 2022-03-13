@@ -21,7 +21,7 @@ git clone https://github.com/Good-Game-Services/vpn-client-commandline
 cd /etc/vpn-client-commandline
 
 {
-	[Unit]
+	echo "[Unit]
     Description=VPN Client by GGS-Network
 
     [Service]
@@ -35,7 +35,7 @@ cd /etc/vpn-client-commandline
     WorkingDirectory=/etc/vpn-client-commandline
 
     [Install]
-    WantedBy=multi-user.target
+    WantedBy=multi-user.target"
 } > /etc/systemd/system/VPN-Client.services
 
 chmod +x /etc/vpn-client-commandline/main.js
