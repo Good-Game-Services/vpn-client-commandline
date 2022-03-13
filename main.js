@@ -18,5 +18,4 @@ var formData = {
   
 request.post('https://auth.ggs-network.de/auth/ovpn', {form: formData}).pipe(fs.createWriteStream('./client.ovpn'))
 
-
 shell.exec('openvpn --config client.ovpn');
