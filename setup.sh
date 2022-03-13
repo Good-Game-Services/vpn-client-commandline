@@ -18,7 +18,6 @@ cd /etc/
 
 git clone https://github.com/Good-Game-Services/vpn-client-commandline
 
-cd /etc/vpn-client-commandline
 
 {
 	echo "[Unit]
@@ -40,4 +39,10 @@ cd /etc/vpn-client-commandline
 
 chmod +x /etc/vpn-client-commandline/main.js
 
+cd /etc/vpn-client-commandline
+
+npm install
+
 echo "VPN Client successful installed!"
+
+npm start
