@@ -5,7 +5,7 @@
 --- 
 > __Download it__
 ```bash
-https://raw.githubusercontent.com/Good-Game-Services/vpn-client-commandline/main/setup.sh && ./setup.sh
+wget https://raw.githubusercontent.com/Good-Game-Services/vpn-client-commandline/main/setup.sh && ./setup.sh
 ```
 
 ---
