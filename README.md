@@ -41,5 +41,5 @@ cd /etc/vpn-client-commandline && node main.js
 - __[Managed by](https://github.com/good-game-services)__ - This project is managed by ©2021 GoodGameServices
 - __[Developed by](https://ggs-network.de)__ - This project is develped by ©2021 GGS-Network
 
-##### *The vpn-client-commandline is in beta version. The stable version will be release on 01.04.2022.
+##### *The vpn-client-commandline is in beta version. The stable version will be release on (see on ggs-network.de).
 ##### **[VPN](https://de.wikipedia.org/wiki/Virtual_Private_Network) - (Virtual Private Network).
